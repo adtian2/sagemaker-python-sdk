@@ -42,8 +42,6 @@ def test_smp_v2(load_config):
                         if "2.3.1" == version:
                             py_version = "py311"
 
-                        print(version, py_version)
-
                         uri = image_uris.get_training_image_uri(
                             region,
                             framework="pytorch",
